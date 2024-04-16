@@ -1,0 +1,103 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.header1{
+    background: white;
+    width: 100%;
+    height: 6.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 100;
+}
+
+.logo{
+    text-transform: uppercase;
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-left: -17rem;
+}
+
+.seções{
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+    margin-right: -12rem;
+    
+}
+
+.secao1{
+    background: #0a1128;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.container-text{
+    margin-top: 6.5rem;
+}
+
+.titulo{
+    color: white;
+    font-size: 6rem;
+    text-transform: uppercase;
+    width: 500px;
+    margin-left: 170px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.texto-branco{
+    color: white;
+    font-size: 2.3rem;
+    width: 425px;
+    margin-left: 175px;
+}
+
+.secao2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.titulo2{
+    color: black;
+    font-size: 6rem;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.texto-preto{
+    font-size: 2.3rem;
+    width: 640px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.secao3{
+    display: flex;
+    flex-direction: column;
+    background: #0a1128;
+    height: 100vh;
+    width: 100%;
+}
+
+.grid-text{
+    
+}
+
+
