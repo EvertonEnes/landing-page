@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="script.js">
 
 </head>
 <body>
@@ -16,11 +17,11 @@
                 <p class="logo">logo</p>
 
                 <div class="seções">
-                    <p><a href="#link-secao2">intro</a></p>
-                    <p><a href="#link-secao3">top 3</a></p>
-                    <p><a href="#link-secao4">gallery</a></p>
-                    <p><a href="#link-secao5">work</a></p>
-                    <p><a href="#link-secao7">contact</a></p>
+                    <p><a class="link-secoes" href="#link-secao2" style="transition-duration: 1s;">intro</a></p>
+                    <p><a class="link-secoes" href="#link-secao3" style="transition-duration: 1s;">top 3</a></p>
+                    <p><a class="link-secoes" href="#link-secao4" style="transition-duration: 1s;">gallery</a></p>
+                    <p><a class="link-secoes" href="#link-secao5" style="transition-duration: 1s;">work</a></p>
+                    <p><a class="link-secoes" href="#link-secao7" style="transition-duration: 1s;">contact</a></p>
                 </div>
             </div>
         </div>
@@ -52,15 +53,15 @@
                 </div>
                 <div class="grid-text">
                     <div class="card">
-                        <h3 class="titulo-card">First</h3>
+                        <h3 class="titulo-card1">First</h3>
                         <p class="texto-card">This button would add a box to the row of key content boxes below the intro text. This should put the box there regardless of where the user is currently writing.</p>
                     </div>
                     <div class="card">
-                        <h3 class="titulo-card">Another site</h3>
+                        <h3 class="titulo-card2">Another site</h3>
                         <p class="texto-card">I'd suggest having a popup that asks where in the row to insert the box (at the beginning or end), what title to give the box, what text to put in the box, and where the box should link to. The entire box should serve as a link to the destination page.</p>
                     </div>
                     <div class="card">
-                        <h3 class="titulo-card">Third one</h3>
+                        <h3 class="titulo-card3">Third one</h3>
                         <p class="texto-card">You can also include a type attribute containing the MIME type of the resource, so a browser can quickly see what resources are on offer, and ignore ones that it doesn’t support</p>
                     </div>
                 </div>
@@ -73,12 +74,24 @@
                 <p class="text-s4">Here are some of my pics.</p>
             
                 <div class="grid-imagens">
-                    <img class="imagens-grid" src="https://source.unsplash.com/random/800x800" alt="">
-                    <img class="imagens-grid" src="https://source.unsplash.com/random/900x900" alt="">
-                    <img class="imagens-grid" src="https://source.unsplash.com/random/500x500" alt="">
-                    <img class="imagens-grid" src="https://source.unsplash.com/random/801x801" alt="">
-                    <img class="imagens-grid" src="https://source.unsplash.com/random/904x904" alt="">
-                    <img class="imagens-grid" src="https://source.unsplash.com/random/505x505" alt="">
+                    <div class="galeria-imagem">
+                        <img class="imagens-grid" src="https://source.unsplash.com/random/800x800" alt="">
+                    </div>
+                    <div class="galeria-imagem">
+                        <img class="imagens-grid" src="https://source.unsplash.com/random/900x900" alt="">
+                    </div> 
+                    <div class="galeria-imagem">
+                        <img class="imagens-grid" src="https://source.unsplash.com/random/500x500" alt="">
+                    </div>  
+                    <div class="galeria-imagem">
+                        <img class="imagens-grid" src="https://source.unsplash.com/random/801x801" alt="">
+                    </div> 
+                    <div class="galeria-imagem">
+                        <img class="imagens-grid" src="https://source.unsplash.com/random/904x904" alt="">
+                    </div>  
+                    <div class="galeria-imagem"> 
+                        <img class="imagens-grid" src="https://source.unsplash.com/random/505x505" alt="">
+                    </div> 
                 </div>
             </div>
         </div>
@@ -90,15 +103,15 @@
                 </div>
                 <div class="grid-text">
                     <div class="card">
-                        <h3 class="titulo-card">A good one</h3>
+                        <h3 class="titulo-card1">A good one</h3>
                         <p class="texto-card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam perferendis nisi omnis culpa eius optio eos inventore rerum? Harum velit consectetur tempora et numquam distinctio vero exercitationem mollitia laborum inventore?</p>
                     </div>
                     <div class="card">
-                        <h3 class="titulo-card">Great job</h3>
+                        <h3 class="titulo-card2">Great job</h3>
                         <p class="texto-card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam perferendis nisi omnis culpa eius optio eos inventore rerum? Harum velit consectetur tempora et numquam distinctio vero exercitationem mollitia laborum inventore?</p>
                     </div>
                     <div class="card">
-                        <h3 class="titulo-card">The best</h3>
+                        <h3 class="titulo-card3">The best</h3>
                         <p class="texto-card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam perferendis nisi omnis culpa eius optio eos inventore rerum? Harum velit consectetur tempora et numquam distinctio vero exercitationem mollitia laborum inventore?</p>
                     </div>
                 </div>
@@ -365,6 +378,6 @@
     </footer>
 
     <a class="back-top" href="#home"><i style="font-size: 30px;" class="fa-solid fa-chevron-up"></i></a>
-
+    <script src="script.js"></script>
 </body>
 </html>
